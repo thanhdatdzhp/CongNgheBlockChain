@@ -2,7 +2,7 @@
     🎓 Faculty of Information Technology (Dai Nam University)
 </h2>
 <h2 align="center">
-    CHAT ROOM DÙNG UDP MULTICAST
+    HỆ THỐNG XÁC THỰC ĐIỂM SINH VIÊN ỨNG DỤNG BLOCKCHAIN ETHEREUM
 </h2>
 <div align="center">
     <p align="center">
@@ -18,10 +18,6 @@
 </div>
 
 ---
-
-<h2 align="center">
-    🎓 Faculty of Information Technology (Dai Nam University)
-</h2>
 
 <h2 align="center">
 <h2 align="center">
