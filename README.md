@@ -250,6 +250,8 @@ Hệ thống cung cấp:
 * Số lần cập nhật điểm.
 
 Dữ liệu được lấy trực tiếp từ Blockchain.
+<p align="center">
+  <img src="Poster.png" alt="Sơ đồ hệ thống" width="900"/>
 
 ---
 
