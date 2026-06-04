@@ -1,9 +1,6 @@
 <h2 align="center">
     🎓 Faculty of Information Technology (Dai Nam University)
 </h2>
-<h2 align="center">
-    HỆ THỐNG XÁC THỰC ĐIỂM SINH VIÊN ỨNG DỤNG BLOCKCHAIN ETHEREUM
-</h2>
 <div align="center">
     <p align="center">
         <img alt="AIoTLab Logo" width="170" src="https://github.com/user-attachments/assets/711a2cd8-7eb4-4dae-9d90-12c0a0a208a2" />
