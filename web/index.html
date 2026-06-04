@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Blockchain Student Grade System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="toast" class="toast"></div>
+
+  <div class="dashboard">
+    <div class="header">
+      <div>
+        <h1>🎓 Student Grade Blockchain</h1>
+        <p>Hệ thống quản lý điểm sinh viên bằng Blockchain & MetaMask</p>
+      </div>
+      <button id="connectButton">Kết nối MetaMask</button>
+    </div>
+
+    <div class="stats">
+      <div class="stat-card">
+        <h3>Blockchain</h3>
+        <p>Sepolia Testnet</p>
+      </div>
+      <div class="stat-card">
+        <h3>Bảo mật</h3>
+        <p>Hash Verification</p>
+      </div>
+      <div class="stat-card">
+        <h3>Trạng thái</h3>
+        <p>Chống sửa đổi dữ liệu</p>
+      </div>
+    </div>
+
+    <div class="grid">
+
+      <div class="card">
+        <h2>📌 Dữ liệu mẫu có sẵn</h2>
+        <p>SV001 - Nguyễn Văn A - CNTT1 - Điểm 8</p>
+        <p>SV002 - Trần Thị B - CNTT2 - Điểm 9</p>
+        <p>SV003 - Lê Văn C - CNTT3 - Điểm 7</p>
+      </div>
+
+      <div class="card">
+        <h2>➕ Thêm sinh viên</h2>
+        <input id="studentId" placeholder="Mã sinh viên">
+        <input id="studentName" placeholder="Tên sinh viên">
+        <input id="studentClass" placeholder="Lớp">
+        <input id="studentWallet" placeholder="Ví sinh viên 0x...">
+        <input id="studentScore" type="number" placeholder="Điểm ban đầu">
+        <button onclick="addStudent()">Thêm sinh viên</button>
+      </div>
+
+      <div class="card">
+        <h2>📝 Cập nhật điểm hợp lệ</h2>
+        <input id="scoreStudentId" placeholder="Mã sinh viên">
+        <input id="scoreValue" type="number" placeholder="Điểm mới">
+        <button onclick="updateScore()">Cập nhật điểm</button>
+      </div>
+
+      <div class="card warning-card">
+        <h2>⚠️ Giả lập sửa đổi dữ liệu</h2>
+        <input id="tamperStudentId" placeholder="Mã sinh viên">
+        <input id="tamperScore" type="number" placeholder="Điểm bị sửa trái phép">
+        <button class="danger-btn" onclick="fakeModifyData()">Giả lập sửa đổi</button>
+      </div>
+
+      <div class="card">
+        <h2>🔍 Tra cứu điểm</h2>
+        <input id="searchStudentId" placeholder="Nhập mã sinh viên">
+        <button onclick="getStudent()">Xem điểm</button>
+        <div id="result"></div>
+      </div>
+
+      <div class="card">
+        <h2>🛡️ Kiểm tra toàn vẹn dữ liệu</h2>
+        <input id="verifyStudentId" placeholder="Nhập mã sinh viên">
+        <button onclick="verifyData()">Kiểm tra dữ liệu</button>
+        <div id="verifyResult"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
