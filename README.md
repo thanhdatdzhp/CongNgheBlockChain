@@ -251,7 +251,7 @@ Hệ thống cung cấp:
 
 Dữ liệu được lấy trực tiếp từ Blockchain.
 <p align="center">
-  <img src="Poster.pptx" alt="Sơ đồ hệ thống" width="900"/>
+  <img src="Poster.png" alt="Sơ đồ hệ thống" width="900"/>
 
 ---
 
